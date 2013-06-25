@@ -10,7 +10,7 @@ doubanFMDownloader
 1. Checkout/Download this project, put it somewhere
 2. In the [chrome's extenson page](chrome://extensions/), install it from somewhere.
 
-3. Then just browse to [doubanFM](fm.)
+3. Then just browse to [doubanFM](http://douban.fm/)
 
 ### Notes
 1. Because of the Limitation of Google Chrome, it can only download files into the root of Download folder
