@@ -1,0 +1,20 @@
+{
+  "manifest_version": 2,
+
+  "name": "DoubanFm Downloader",
+  "description": "This extension is for real-time downloading DoubanFM Musics",
+  "version": "0.1",
+
+  "permissions": [
+    "webRequest",
+    "downloads",
+    "*://*/*"
+  ],
+
+  "devtools_page": "devtools.html",
+
+  "background": {
+    "scripts": ["main.js"],
+    "persistent": true
+  }
+}
