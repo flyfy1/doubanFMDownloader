@@ -2,8 +2,8 @@ doubanFMDownloader
 ==================
 
 语言连接：
-- [English Version]()
-- [中文版](#中文版)
+- [English Version](#english-version)
+- [中文版](#chinese-version)
 
 # English Version
 ### Requirement 
@@ -22,7 +22,7 @@ doubanFMDownloader
 2. I believe with the playlist.json file, we can easily download the corresponding file from any location. Thus I wrote this playlist.json file downloade first (as you can see from the source code it's easy to make it to be real-time downloading), and then I'll further write a script (probably in PHP..) to auto-download files and do file-renaming.
 
 
-# 中文版
+<h2 id="chinese-version">中文版</h2>
 
 ## 最终使用效果：
 去[豆瓣FM](http://douban.fm/)网站收听歌曲时，在每个MP3__缓冲完毕__之后会自动下载（一般是在一个MP3播放进行中），并根据你的`chrome://downloads/`的数据，避免下载重复的歌曲（根据歌曲名决定）。
